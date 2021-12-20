@@ -1,11 +1,11 @@
 
-// public class App {
+public class App {
     
-//     public static void main(String[] args) throws Exception {
-//         Demo D= new Demo(9);
-//         D.Display();
-//     }
-// }
+    public static void main(String[] args) throws Exception {
+        Demo D= new Demo();
+        
+    }
+}
 // class Demo {
 //     int l;
 //     Demo(int i) {

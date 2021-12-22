@@ -20,7 +20,13 @@ public class wrapperclass {
         System.out.println(f1);
         System.out.println(d1);
         System.out.println(l1);
-        
-          
+
+        String str;
+        str= Integer.toString(i)+1;
+        System.out.println("Primitive to String and adding 1: "+str);
+        Integer intval= Integer.valueOf(str)+1;
+        System.out.println("String to Integer Object and adding 1: "+intval);
+        int i3 = Integer.parseInt(str)+1;
+        System.out.println("String to Primitive Integer and adding 1: "+i3);  
     }
 }  

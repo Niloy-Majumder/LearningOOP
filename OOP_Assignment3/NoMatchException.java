@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class NoMatchException extends Exception {
     public String toString(){
-        return new String("Don't Lie");
+        return new String("Error Occured");
     }
 }
 

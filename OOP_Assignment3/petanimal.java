@@ -1,14 +1,7 @@
-import java.util.Iterator;
 import java.util.Vector;
 
 public class petanimal {
     public static void main(String[] args) {
-        // Vector<String> v= new Vector<String>();
-        // v.add("abc");
-        // Iterator<String> it =v.iterator();
-        // while (it.hasNext()) {
-        //     System.out.println(it.next());
-        // }
         try {
             Vector v= new Vector();
             for (int i = 0; i < args.length; i++) {

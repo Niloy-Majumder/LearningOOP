@@ -1,7 +1,7 @@
 import java.util.Random;
 
 
-//producer consumer proble with single item queue
+//producer consumer problem with single item queue
 
 
 class SingleItemQ {
@@ -70,7 +70,7 @@ class SingleItemQ {
 
 }
 
-class Consumer extends Thread {
+class Consumer implements Runnable {
     SingleItemQ q;
     public final Thread t = new Thread(this, "consumer");
 
@@ -90,7 +90,7 @@ class Consumer extends Thread {
     }
 }
 
-class Producer extends Thread {
+class Producer implements Runnable {
     SingleItemQ q;
     public final Thread t = new Thread(this, "Producer");
 

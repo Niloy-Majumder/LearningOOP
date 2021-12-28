@@ -1,4 +1,3 @@
-// dinning philosophers problem with three philosopher
 
 class Messeger extends Thread {
     final String id;

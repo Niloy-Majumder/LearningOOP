@@ -16,7 +16,7 @@ class Consumer extends Thread {
         this.name=name;
         this.amount=amount;
     }
-    void useATM(){
+    synchronized void useATM(){
         A.checkBalance(name, amount);
         A.withDraw(name);
     }
